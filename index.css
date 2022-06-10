@@ -1,0 +1,434 @@
+*{
+    box-sizing: border-box;
+
+}
+body,html{margin: 0px ; padding: 0px} img{display: block};
+@font-face {
+    font-family: 'GrandHotel-Regular';
+    src: url("assets/fonts/GrandHotel-Regular.ttf");
+}
+@font-face {
+    font-family: 'FlingPlain';
+    src: url("assets/fonts/FlingPlain.otf");
+}
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url("assets/fonts/Montserrat-Thin.ttf");
+}
+header{
+    position: relative;
+}
+main{
+    position: relative;
+}
+.background_noir1{
+
+}
+.accueil{
+    position: relative;
+    display: flex;
+    background: #303030;
+
+}
+.img2{
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+.logo{
+    margin-left:  15px;
+}
+a{
+    margin-right: 40px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: red;
+}
+i{
+    margin-left: 50px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: whitesmoke
+}
+.text_contener1{
+    width: 29%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+.title{
+    font-family: 'FlingPlain';
+    font-weight: bolder;
+    font-size: 60px;
+    color: #ffc60b;
+}
+.description{
+    font-family: 'Montserrat-Thin';
+    font-weight: bolder;
+    color: white;
+    margin: 20px 0px 20px 0px;
+ 
+}
+
+button{
+    background: #ffc700;
+    padding: 10px 25px 10px 25px;
+    font-weight: bolder;
+    font-size: large;
+    border: #303030;
+    cursor: pointer;
+}
+button:hover{
+    color: #ffc700;
+    background: #303030;
+    border:1px solid #ffc700;
+    border-radius: 3px;
+}
+.poivron_conterner{
+    position: absolute;
+    top: 10%;
+    left: 81%;
+}
+.feuil_contener{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.orange_contener{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+.oignon_contener{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+.noix_contener{
+    position: absolute;
+    top: 75%;
+    left: 90%;
+}
+.lemon1{
+    position: absolute;
+    top: 25%;
+    left: 90%;
+}
+.lemon2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.lemon3{
+    position: absolute;
+    top: 70%;
+    left: 75%;
+}
+.lemon4{
+    position: absolute;
+    top: 10%;
+    left: 52%;
+}
+.texts_contener{
+    text-align: center;
+    margin-top: 100px;
+}
+.decription_plats{
+    width: 60%;
+    margin: 10px 10% 0% 15% ;
+    font-family: 'Montserrat-Thin';
+    font-weight: bold;
+}
+.best_seller{
+    font-family: 'FlingPlain';
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.plats{
+    display: flex;
+    justify-content: center;
+
+}
+
+.plat{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 60px;
+}
+.texts{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: -5%;
+    margin-bottom: 15%;
+}
+.title_plat{
+    font-family: 'FlingPlain';
+    font-weight: bolder;
+    font-size: 30px;
+}
+.text_descriptiVE{
+    width: 60%;
+    margin: 10px 0px 0px 20% ;
+}
+.text_descriptive_plat{
+    margin-top: -3%;
+    text-align: center;
+}
+.background2{
+    width: 100%;
+    padding: -8%;
+    position: absolute;
+    z-index: -3;
+    overflow: hidden;
+}
+.img_background2{
+    margin-left: -10%;
+}
+.background3{
+    position: absolute;
+    top: 340%;
+    overflow: hidden;
+    z-index: -3;
+}
+.img_background3{
+    margin-left: -15%;
+}
+.background{
+    background: #303030; 
+    padding: 10%;
+    width: 100%;
+    position: absolute;
+    top: 320%;
+    z-index: -3;
+}
+.slide2{
+    position: absolute;
+    top: 700px;
+    border-radius: 50%;
+    margin: 60px;
+    z-index: 4;
+    width: 300px;
+}
+.text_contener2{
+    display: inline-block;
+    width: 29%;
+    position: absolute;
+    top:  180%;
+    left: 50%;
+    margin-left: -10%;
+}
+.description_body{
+    margin: 20px 0px 20px 0px;
+    font-family: 'Montserrat-Thin';
+    color: white;
+    font-weight: bolder;
+}
+.texts_contener3{
+    position: absolute;
+    top: 290%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+
+}
+.conterner{
+    border: 2px solid white;
+    margin-right: 50px;
+    border-radius: 50%;
+    /* padding: 40px 20px 40px 20px; */
+}
+.circle_country{
+    padding: 50px 40px 50px 40px;
+}
+.circle_outlet{
+    padding: 50px 45px 50px 45px;
+}
+.circle_chef{
+    padding: 50px 49px 50px 49px;
+}
+.circle_menu{
+    padding: 50px 49px 50px 49px;
+}
+.nos_chiffres{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+.chiffre{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #ffc60b;
+}
+.name{
+    color: white;
+    font-weight: bolder;
+}
+.chiffre, .name{
+    display: block;
+}
+.Statistic{
+    font-family: 'FlingPlain';
+    font-weight: bolder;
+    font-size: 60px;
+    color: #ffc60b;
+    margin-bottom: 20px;
+}
+.decription_statis{
+    margin: 20px 0px 20px 0px;
+    font-family: 'Montserrat-Thin';
+    color: white;
+    font-weight: bolder;
+}
+
+.text_contener4{
+    position: absolute;
+    top:450% ;
+    margin-left: 20%;
+}
+.plat_avec_sauce_tomate2{
+    position: absolute;
+    top: 440%;
+    left: 800px;
+    border-radius: 50%;
+    z-index: 4;
+    width: 300px;
+}
+.description_bottom{
+    width: 40%;
+    margin: 20px 0px 20px 0px;
+    font-family: 'Montserrat-Thin';
+    color: white;
+    font-weight: bolder;
+}
+.poivron_conterner2{
+    position: absolute;
+    top: 270%;
+    left: 70%;
+}
+.feuil_contener2{
+    position: absolute;
+    top: 300%;
+    left: 5%;
+}
+.orange_contener2{
+    position: absolute;
+    top: 100%;
+    left: 60%;
+}
+.oignon_contener2{
+    position: absolute;
+    top: 350%;
+    left: 90%;
+}
+.noix_contener2{
+    position: absolute;
+    top: 75%;
+    left: 90%;
+}
+.lemon12{
+    position: absolute;
+    top: 310%;
+    left: 90%;
+}
+/* .lemon22{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.lemon32{
+    position: absolute;
+    top: 70%;
+    left: 75%;
+} */
+.lemon42{
+    position: absolute;
+    top: 270%;
+    left: 30%;
+}
+.recette_img_contener{
+    position: absolute;
+    top: 575%;
+}
+.yellow_transparant{
+    position: absolute;
+    top: 575%;
+    background: rgba(255, 198, 11, 0.5);
+    width: 100%;
+    padding-bottom: 67.5%;
+}
+.text_contener5{
+    position: absolute;
+    top: 650%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.description_bottom2{
+    font-family: 'Montserrat-Thin';
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+.Lenora, .subcribe{
+    font-family: 'FlingPlain';
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.subcribe_newletter{
+        position: absolute;
+        top: 800%;
+        text-align: center;
+        margin: 0% 15% 0% 15%;
+}
+.contener_sub{
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #f2f2f2;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    border: none;
+    width: 100%;
+    padding: 15px 185px 19px 5PX;
+    background: #f2f2f2;
+}
+.btn_subscribe{
+    border: none;
+    padding: 15px;
+
+}
+.btn_subscribe:hover{
+    color: #ffc700;
+    background: #303030;
+    border: none;
+    border-radius: 0px;
+}
+.description_subscribe{
+    font-family: 'Montserrat-Thin';
+    font-weight: bold;
+    font-size: 20px;
+}
+footer{
+    position: absolute;
+    top: 900%;
+    padding-bottom: 900px;
+    background-color: red;
+}
