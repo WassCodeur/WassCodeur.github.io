@@ -21,8 +21,8 @@ header{
 main{
     position: relative;
 }
-.background_noir1{
-
+i:hover{
+    color: #ffc60b;
 }
 .accueil{
     position: relative;
@@ -46,17 +46,17 @@ main{
 .logo{
     margin-left:  15px;
 }
-a{
+.linK1{
     margin-right: 40px;
     margin-top: 5px;
     font-size: 20px;
     text-decoration: none;
     color: whitesmoke;
 }
-a:hover{
-    color: red;
+.linK1:hover{
+    color: #ffc60b;
 }
-i{
+.search{
     margin-left: 50px;
     margin-right: 5px;
     margin-top: 5px;
@@ -426,9 +426,53 @@ input{
     font-weight: bold;
     font-size: 20px;
 }
-footer{
+.footer{
+    width: 100%;
     position: absolute;
     top: 900%;
-    padding-bottom: 900px;
-    background-color: red;
+
+
+}
+.footer_text{
+    display: flex;
+    justify-content: space-between;
+    background: #303030;
+    padding:20%  0px 20% 0px
+
+}
+.networks{
+    display: flex;
+}
+.text1{
+    width: 50%;
+    margin-left:15PX;
+
+}
+.desccription_footer1{
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Montserrat-Thin';
+}
+.fa-twitter, .fa-facebook,.fa-instagram, .fa-whatsapp {
+    margin-right: 10px;
+    margin-top:  10px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.titre_footer{
+    margin-bottom: 20px;
+    font-family: 'Montserrat-Thin';
+    font-weight: bolder;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.link2{
+    margin-right: 40px;
+    margin-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.link2:hover{
+    color: #ffc60b;
 }
