@@ -18,8 +18,19 @@ body,html{margin: 0px ; padding: 0px} img{display: block};
 header{
     position: relative;
 }
+.menu_burger{
+    display: none;
+}
+.menu_burger:hover .menu_contener{
+    display: block;
+    background-color: #ffc60b;
+}
+.menu_contener{
+    display: none;
+}
 main{
     position: relative;
+    
 }
 i:hover{
     color: #ffc60b;
@@ -33,7 +44,7 @@ i:hover{
 .img2{
     position: absolute;
     bottom: 0%;
-    left: 35%;
+    left: 420px
 
 }
 .menubar{
@@ -475,4 +486,410 @@ input{
 }
 .link2:hover{
     color: #ffc60b;
+}
+@media only screen and (min-width: 1200px){
+    .img2{
+        position: absolute;
+        bottom: -0.5%;
+        left: 350px
+    
+    }
+
+    .background3{
+        position: absolute;
+        top: 400%;
+        overflow: hidden;
+        z-index: -3;
+    }
+    .img_background3{
+        margin-left: 0%;
+        padding: 0ch;
+        
+        box-sizing: border-box;
+        width: 120%;
+        
+    }
+
+
+
+
+
+}
+@media only screen and (min-width: 760px){
+    .img2{
+        position: absolute;
+        bottom: -0.5%;
+        left: 350px
+    
+    }
+
+    .background3{
+        position: absolute;
+        top: 300%;
+        overflow: hidden;
+        z-index: -3;
+    }
+    .img_background3{
+        margin-left: -10%;
+        padding: 0ch;
+        
+        box-sizing: border-box;
+        width: 120%;
+        
+    }
+
+    .text_contener4{
+
+        top:400% ;
+
+    }
+    .plat_avec_sauce_tomate2{
+        position: absolute;
+        top: 420%;
+        left: 820px;
+
+    }
+
+
+
+}
+@media only screen and (max-width: 500px){
+    .menu_burger{
+        display: block;
+        margin-right: 10px;
+    }
+    .menu_burger:hover .menu_contener{
+        display: block;
+        background-color: #ffc60b;
+    }
+    .menu_contener{
+        display: none;
+    }
+    main{
+        position: relative;
+        
+    }
+    i:hover{
+        color: #ffc60b;
+    }
+    .accueil{
+        position: relative;
+        display: flex;
+        background: #303030;
+    
+    }
+    .img2{
+        position: absolute;
+        display: none;
+        bottom: 0%;
+        left: 420px
+    
+    }
+    .navbar{
+        display: none
+    }
+    .menubar{
+        width: 100%;
+    }
+
+    .text_contener1{
+        width: 60%;
+        margin-right: 20px;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+    .title{
+        font-family: 'FlingPlain';
+        font-weight: bolder;
+        font-size: 60px;
+        color: #ffc60b;
+    }
+    .description{
+        display: none
+        font-family: 'Montserrat-Thin';
+        font-weight: bolder;
+        color: white;
+        margin: 20px 0px 20px 0px;
+     
+    }
+    
+    button{
+        background: #ffc700;
+        padding: 5px 5px 5px 5px;
+        font-weight: bolder;
+        font-size: large;
+        border: #303030;
+        cursor: pointer;
+    }
+    button:hover{
+        color: #ffc700;
+        background: #303030;
+        border:1px solid #ffc700;
+        border-radius: 3px;
+    }
+    .poivron_conterner{
+        display:none;
+
+    }
+    .feuil_contener{
+        display:none;
+
+    }
+    .orange_contener{
+        display:none;
+
+    }
+    .oignon_contener{
+        display:none;
+    }
+    .noix_contener{
+        display:none;
+
+    }
+    .lemon1{
+        display:none;
+  
+    }
+    .lemon2{
+        display:none;
+
+    }
+    .lemon3{
+        display:none;
+
+    }
+    .lemon4{
+        display:none;
+
+    }
+    .texts_contener{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .decription_plats{
+        width: 70%;
+        margin: 5px 10% 0% 15% ;
+        font-family: 'Montserrat-Thin';
+        font-weight: bold;
+    }
+
+    .plats{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    
+    }
+    .plat1{
+        margin-left: 0px;
+    }
+    
+    .plat{
+        border: 1px solid black;
+        border-radius: 50%;
+        padding:0px;
+        margin: 10px;
+        width: 100px;
+    }
+    .texts{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: -5%;
+        margin-bottom: 15%;
+    }
+    .title_plat{
+        font-family: 'FlingPlain';
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .text_descriptiVE{
+        width: 60%;
+        margin: 10px 0px 0px 20% ;
+    }
+    .text_descriptive_plat{
+        margin-top: -3%;
+        text-align: center;
+    }
+    .background2{
+        width: 100%;
+        padding: -8%;
+        position: absolute;
+        z-index: -3;
+        overflow: hidden;
+    }
+    .img_background2{
+        margin-left: -10%;
+    }
+    .background3{
+        position: absolute;
+        top: 470%;
+        overflow: hidden;
+        z-index: -3;
+    }
+    .img_background3{
+        margin-left: -15%;
+    }
+    .background{
+        background: #303030; 
+        padding-top: 160%;
+        padding-bottom: 300%;
+        width: 100%;
+        position: absolute;
+        top: 160%;
+        z-index: -3;
+    }
+    .slide2{
+        position: absolute;
+        top: 500px;
+        border-radius: 50%;
+        margin: 60px;
+        z-index: 4;
+        width: 130px;
+    }
+    .text_contener2{
+        width: 60%;
+        top:  150%;
+        left: 30%;
+ 
+    }
+    .description_body{
+        margin: 20px 0px 20px 0px;
+        font-family: 'Montserrat-Thin';
+        color: white;
+        font-weight: bolder;
+    }
+    .texts_contener3{
+        position: absolute;
+        top: 240%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    
+    }
+    .conterner{
+        border: 2px solid white;
+        margin-right: 50px;
+        border-radius: 50%;
+        /* padding: 40px 20px 40px 20px; */
+    }
+    .circle_country{
+        margin-bottom: 15px;
+    }
+    .circle_outlet{
+        margin-bottom: 15px;
+    }
+    .circle_chef{
+        margin-bottom: 15px;
+    }
+    .circle_menu{
+        margin-bottom: 15px;
+    }
+    .nos_chiffres{
+        display: block;
+    }
+    .chiffre{
+        font-weight: bolder;
+        font-size: 40px;
+        color: #ffc60b;
+    }
+    .name{
+        color: white;
+        font-weight: bolder;
+    }
+    .chiffre, .name{
+        display: block;
+    }
+    .Statistic{
+        font-family: 'FlingPlain';
+        font-weight: bolder;
+        font-size: 60px;
+        color: #ffc60b;
+        margin-bottom: 20px;
+    }
+    .decription_statis{
+        margin: 20px 0px 20px 0px;
+        font-family: 'Montserrat-Thin';
+        color: white;
+        font-weight: bolder;
+    }
+    
+    .text_contener4{
+        position: absolute;
+        top:440% ;
+        margin-left: 20%;
+    }
+    .plat_avec_sauce_tomate2{
+        position: absolute;
+        top: 440%;
+        left: 800px;
+        border-radius: 50%;
+        z-index: 4;
+        width: 300px;
+    }
+    .description_bottom{
+        width: 85%;
+        margin: 20px 0px 20px 0px;
+        font-family: 'Montserrat-Thin';
+        color: white;
+        font-weight: bolder;
+    }
+    .poivron_conterner2{
+        display:none;
+    }
+    .feuil_contener2{
+        display:none;;
+    }
+    .orange_contener2{
+        display:none;
+    }
+    .oignon_contener2{
+        display:none;
+    }
+    .noix_contener2{
+        display:none;
+
+    }
+    .lemon12{
+        display:none;
+
+    }
+
+    .lemon42{
+        display:none;
+
+    }
+
+
+    .subcribe_newletter{
+            position: absolute;
+            top: 790%;
+
+
+    }
+    .contener_sub{
+        width: 50%;
+        margin-left: -5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .description_subscribe{
+        margin-right: 20px;
+    }
+    .text1{
+        width: 30%;
+        margin-left:15PX;
+    }
+    .text2{
+        width: 22%;
+    }
+
+    .fa-bars {
+        margin-right: 10px;
+        margin-top:  10px;
+        color: whitesmoke;
+        font-size: 25px;
+    }
 }
